@@ -6,7 +6,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>所在位置</title>
-    <script src="https://webapi.amap.com/maps?v=1.4.15&key=20b394af4f3a12f3b40f537c8e432399"></script>
+    <script src="https://webapi.amap.com/maps?v=1.4.15&key=22222222"></script>
     <script src="https://res2.wx.qq.com/open/js/jweixin-1.4.0.js"></script>
     <script src="https://static.zlf.cn/js/warranty/base.js"></script>
     <link href="https://static.zlf.cn/css/pc/bootstrap.min.css" rel="stylesheet"/>
@@ -199,7 +199,7 @@
                 searchAdress(){
                     var that=this;
                     $.ajax({
-                        url:"https://restapi.amap.com/v3/assistant/inputtips?&key=0087eca54934ad02c3f527812cb8aa4a&datatype=all&keywords="+$("#inputEmail3").val()+"&location="+this.location,
+                        url:"https://restapi.amap.com/v3/assistant/inputtips?&key=2222222222&datatype=all&keywords="+$("#inputEmail3").val()+"&location="+this.location,
                         type:"GET",
                         success:function(res){
                             if(res.info!=0){
